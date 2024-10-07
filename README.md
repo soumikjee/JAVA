@@ -1,5 +1,5 @@
 Java Overview
-What is Java?: 
+What is Java: <br>
 A high-level, object-oriented programming language designed to have as few implementation dependencies as possible. It is widely used for building web applications, mobile apps, and enterprise software.
 Key Features:
 Platform Independence: Write once, run anywhere (WORA) via Java Virtual Machine (JVM).
@@ -21,6 +21,7 @@ Comments:
 
 Single-line comment: // This is a comment
 Multi-line comment: /* This is a comment */
+<br>
 3. Data Types
 Primitive Data Types:
 
