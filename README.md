@@ -1,19 +1,22 @@
 Java Overview
-What is Java?: A high-level, object-oriented programming language designed to have as few implementation dependencies as possible. It is widely used for building web applications, mobile apps, and enterprise software.
+What is Java?: 
+A high-level, object-oriented programming language designed to have as few implementation dependencies as possible. It is widely used for building web applications, mobile apps, and enterprise software.
 Key Features:
 Platform Independence: Write once, run anywhere (WORA) via Java Virtual Machine (JVM).
 Object-Oriented: Supports classes, objects, inheritance, encapsulation, and polymorphism.
 Automatic Memory Management: Garbage collection handles memory management.
 2. Basic Syntax
-Hello World Example:
 
-java
-Copy code
+Hello World Example:
+```ruby
+
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
+```
+
 Comments:
 
 Single-line comment: // This is a comment
@@ -26,16 +29,16 @@ double: Floating-point type (e.g., double b = 5.5;)
 char: Character type (e.g., char c = 'A';)
 boolean: True or false (e.g., boolean flag = true;)
 Non-Primitive Data Types:
-
+```ruby
 Strings: String name = "John";
 Arrays: int[] numbers = {1, 2, 3};
+```
 Classes and Objects.
 4. Control Structures
 Conditional Statements:
 
 if statement:
-java
-Copy code
+```ruby
 if (condition) {
     // code to execute if condition is true
 }
@@ -52,14 +55,18 @@ switch (variable) {
     default:
         // code
 }
+
+```
 Loops:
 
 for loop:
-java
-Copy code
+
+```ruby
 for (int i = 0; i < 10; i++) {
     System.out.println(i);
 }
+
+```
 while loop:
 java
 Copy code
