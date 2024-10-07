@@ -1,3 +1,6 @@
+// 153 = 1 *1*1 + 5*5*5 + 1*1*1 = 153  // 153 = 153 
+// 1456 = 1*1*1*1 + 4*4*4*4 + 5*5*5*5 + 6*6*6*6 
+
 import java.util.Scanner;
 public class ArmstrongNum {
     public static void main(String[] args) {
