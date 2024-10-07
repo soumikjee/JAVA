@@ -1,10 +1,15 @@
-Java Overview
+Java Overview 
+<br>
 What is Java: <br>
 A high-level, object-oriented programming language designed to have as few implementation dependencies as possible. It is widely used for building web applications, mobile apps, and enterprise software.
+<br>
 Key Features:
 Platform Independence: Write once, run anywhere (WORA) via Java Virtual Machine (JVM).
+<br>
 Object-Oriented: Supports classes, objects, inheritance, encapsulation, and polymorphism.
+<br>
 Automatic Memory Management: Garbage collection handles memory management.
+<br>
 2. Basic Syntax
 
 Hello World Example:
@@ -18,27 +23,33 @@ public class HelloWorld {
 ```
 
 Comments:
+<br>
 
 Single-line comment: // This is a comment
+<br>
 Multi-line comment: /* This is a comment */
 <br>
 3. Data Types
-Primitive Data Types:
+<br>
 
-int: Integer type (e.g., int a = 10;)
-double: Floating-point type (e.g., double b = 5.5;)
-char: Character type (e.g., char c = 'A';)
-boolean: True or false (e.g., boolean flag = true;)
+Primitive Data Types:
+<br>
+
+int: Integer type (e.g., int a = 10;) <br>
+double: Floating-point type (e.g., double b = 5.5;) <br>
+char: Character type (e.g., char c = 'A';) <br>
+boolean: True or false (e.g., boolean flag = true;) <br>
 Non-Primitive Data Types:
+<br>
 ```ruby
 Strings: String name = "John";
 Arrays: int[] numbers = {1, 2, 3};
 ```
-Classes and Objects.
-4. Control Structures
-Conditional Statements:
+Classes and Objects. <br>
+4. Control Structures <br>
+Conditional Statements: <br>  
 
-if statement:
+if statement: <br>
 ```ruby
 if (condition) {
     // code to execute if condition is true
@@ -58,9 +69,9 @@ switch (variable) {
 }
 
 ```
-Loops:
+Loops: <br>
 
-for loop:
+for loop: <br>
 
 ```ruby
 for (int i = 0; i < 10; i++) {
@@ -68,23 +79,22 @@ for (int i = 0; i < 10; i++) {
 }
 
 ```
-while loop:
-java
-Copy code
+while loop: <br>
+```ruby
 while (condition) {
     // code
 }
+```
 do-while loop:
-java
-Copy code
+```ruby
 do {
     // code
 } while (condition);
-5. Object-Oriented Programming
-Classes and Objects:
+```
+5. Object-Oriented Programming<br>
+Classes and Objects:<br>
 
-java
-Copy code
+```ruby
 class Dog {
     String name;
     int age;
@@ -117,10 +127,10 @@ class Cat extends Animal {
         System.out.println("Meow");
     }
 }
-6. Exception Handling
-Try-Catch Block:
-java
-Copy code
+```
+6. Exception Handling <br>
+Try-Catch Block: <br>
+```ruby
 try {
     // code that may throw an exception
 } catch (ExceptionType e) {
@@ -128,23 +138,24 @@ try {
 } finally {
     // code that runs regardless of exception
 }
-7. Collections Framework
-Common Collections:
+```
+7. Collections Framework <br>
+Common Collections: <br>
 
-ArrayList: Dynamic array.
-HashMap: Key-value pairs.
-HashSet: Unique elements.
-java
-Copy code
+ArrayList: Dynamic array. <br>
+HashMap: Key-value pairs. <br>
+HashSet: Unique elements.<br>
+```ruby
 import java.util.ArrayList;
 
 ArrayList<String> list = new ArrayList<>();
 list.add("Apple");
 list.add("Banana");
-8. Basic Input/Output
-Using Scanner for Input:
-java
-Copy code
+
+```
+8. Basic Input/Output <br>
+Using Scanner for Input: <br>
+```ruby
 import java.util.Scanner;
 
 public class InputExample {
@@ -156,9 +167,8 @@ public class InputExample {
         scanner.close();
     }
 }
-9. Key Java Terminology
-JDK (Java Development Kit): A software development kit for developing Java applications.
-JRE (Java Runtime Environment): Provides libraries and JVM necessary to run Java applications.
-JVM (Java Virtual Machine): An engine that enables Java bytecode to run on any platform.
-Conclusion
-These notes provide a basic overview of Java programming concepts and syntax. As you continue learning, consider exploring more advanced topics like multithreading, networking, and Java frameworks (e.g., Spring). Happy coding!
+```
+9. Key Java Terminology <br>
+JDK (Java Development Kit): A software development kit for developing Java applications. <br>
+JRE (Java Runtime Environment): Provides libraries and JVM necessary to run Java applications. <br>
+JVM (Java Virtual Machine): An engine that enables Java bytecode to run on any platform. <br>
